@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+var op = process.argv[2],   // "+" infront makes adding work
+    n1 = +process.argv[3],
+    n2 = +process.argv[4];   //operator for math 
+    math = require('./math_section1')
+if (operator === 'add' || "+" === operator) {console.log (n1 + n2);}  // === is better than ==
